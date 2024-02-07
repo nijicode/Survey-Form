@@ -1,0 +1,80 @@
+body{
+    font-family:tahoma,serif;
+    background-image: linear-gradient(115deg,rgba(255,0,0,.4),rgba(255,0,0,.4)), url(https://cdn.dockwalk.com/convert/files/2021/10/1af983c0-2df5-11ec-9e24-d3c2238bc74c-Mental-health-2-heads.jpg/r[width]=1280/1af983c0-2df5-11ec-9e24-d3c2238bc74c-Mental-health-2-heads.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.125rem;
+    width:100%;
+    margin:0;
+    }
+    h1,p{
+      margin:1em auto;
+      text-align:center;
+      width: 70vw;
+      max-width: 700px;
+      min-width: 300px;
+      
+    }
+    form{
+    
+      width: 70vw;
+      max-width: 700px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+      background: rgba(255, 255, 255, 0.5);
+      margin-bottom:5em;
+      margin-top:30px;
+      border:none;
+      border-radius:10px;
+      box-shadow: 0 0 10px 0 rgb(255,255,255);
+      padding-left:20px;
+      padding-right:20px;
+    }
+    fieldset{
+      padding:.5rem 0;
+      border:none;
+    }
+    
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+    
+    input,
+    textarea,
+    select {
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+      border:none;
+      border-radius:5px;
+      font-size: 1.125rem;
+    }
+    
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+      display: inline;
+    }
+    textarea{
+      height:5em;
+      resize:none;
+    }
+    input[type="checkbox"]{
+      width:20px;
+    
+    }
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color:rgba(255,0,0,.6);
+      border-color: white;
+      min-width: 300px;
+      color:white;
+    }
